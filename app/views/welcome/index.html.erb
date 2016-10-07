@@ -8,10 +8,10 @@
 </head>
 <body>
   <div class="container">
-    <form><input type="submit" class="button" value="Login!"></input></form>
-    <form><input type="submit" class="button" value="Register"></input></form>
-    <form><input type="submit" class="button" value="View Family Page"></input></form>
-    <a href="/users/index"><%= image_tag("famfuel-logo.png") %></a>
+    <form><input type="submit" class="button" value="Logout!"></input></form>
+    <form><input type="submit" class="button" value="Create Game"></input></form>
+    <form action="/teams" method="GET"><input type="submit" class="button" value="View Family Page"></input></form>
+    <a href="/users"><%= image_tag("famfuel-logo.png") %></a>
   </div>
   <%= yield %>
 

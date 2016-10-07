@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Familyfuel</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="container">
+    <form action="/" method="GET" class="block"><input type="submit" class="button" value="Home"></input></form><br><br>
+    <div class="block">
+      <form action="match/1" method="GET" class="block">
+        <input
+    </div>
+  </div>
+  <%= yield %>
+
+</body>
+</html>
