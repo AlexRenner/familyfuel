@@ -1,7 +1,54 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Category.new(name: 'Food/Eating')
+Category.new(name: 'Exercise')
+Category.new(name: 'Family Outing')
+Category.new(name: 'Game')
+
+
+Team.new(family_name: 'Johnson')
+User.new(username: 'BobRox', team_id: 1, age: 54, gender: 0)
+User.new(username: 'MommaBear', team_id: 1, age: 52, gender: 1)
+User.new(username: 'suzanne', team_id: 1, age: 14, gender: 1)
+User.new(username: 'roxanne', team_id: 1, age: 12, gender: 1)
+
+Team.new(family_name: 'Smith')
+User.new(username: 'PappaBear', team_id: 2, age: 54, gender: 0)
+User.new(username: 'MotherlyLove', team_id: 2, age: 30, gender: 1)
+User.new(username: 'littlejimmy', team_id: 2, age: 54, gender: 0)
+User.new(username: 'littletimmy', team_id: 2, age: 54, gender: 0)
+
+Team.new(family_name: 'Jones')
+User.new(username: 'Dad', team_id: 3, age: 54, gender: 0)
+User.new(username: 'Mom', team_id: 3, age: 48, gender: 1)
+User.new(username: 'number1', team_id: 3, age: 20, gender: 1)
+User.new(username: 'boy1', team_id: 3, age: 15, gender: 0)
+User.new(username: 'boy2', team_id: 3, age: 14, gender: 0)
+
+Team.new(family_name: 'Williams')
+User.new(username: 'MisterDad', team_id: 4, age: 54, gender: 0)
+User.new(username: 'MissMom', team_id: 4, age: 54, gender: 1)
+User.new(username: 'twin1', team_id: 4, age: 18, gender: 1)
+User.new(username: 'twin2', team_id: 4, age: 18, gender: 1)
+User.new(username: 'boywonder', team_id: 3, age: 6, gender: 0)
+User.new(username: 'troublemaker', team_id: 3, age: 5, gender: 0)
+
+
+Task.new(point_value: 3, description: 'Play a game of basketball')
+Task.new(point_value: 3, description: 'Play a game of pepper (volleyball)')
+Task.new(point_value: 4, description: 'Family bike ride')
+Task.new(point_value: 5, description: 'Cook dinner together')
+Task.new(point_value: 5, description: 'Eat a meal at the table together. NO electronic devices')
+Task.new(point_value: 3, description: 'Take a walk around the block together')
+Task.new(point_value: 4, description: 'Volunteer together')
+Task.new(point_value: 3, description: 'Go ice skating or roller blading')
+Task.new(point_value: 2, description: 'Go bowling')
+Task.new(point_value: 2, description: 'Plan a camping trip')
+Task.new(point_value: 4, description: 'Camp out in the backyard')
+Task.new(point_value: 2, description: 'Make s’mores')
+Task.new(point_value: 3, description: 'Build something with Legos/Lincoln Logs/K’nex')
+Task.new(point_value: 2, description: 'Arts and Crafts')
+Task.new(point_value: 2, description: 'Learn a new card game')
+Task.new(point_value: 1, description: 'Do a word search puzzle')
+Task.new(point_value: 3, description: 'Laughter Yoga')
+Task.new(point_value: 2, description: 'Do a puzzle')
+Task.new(point_value: 3, description: 'Jump rope')
+Task.new(point_value: 3, description: 'Go out for ice cream')
