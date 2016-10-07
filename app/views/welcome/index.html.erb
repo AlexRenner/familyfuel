@@ -7,9 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-  <a href="/users/index"><%= image_tag("famfuel-logo.png") %></a>
-
+  <div class="container">
+    <form><input type="submit" class="button" value="Login!"></input></form>
+    <form><input type="submit" class="button" value="Register"></input></form>
+    <form><input type="submit" class="button" value="View Family Page"></input></form>
+    <a href="/users/index"><%= image_tag("famfuel-logo.png") %></a>
+  </div>
   <%= yield %>
 
 </body>
