@@ -1,1 +1,1 @@
-Simple game for families competing against each other to promote healthier lifestyles.  Only worked on for 2 days during a hackathon.  Still unfinished :-(
+Simple game for families competing against each other to promote healthier lifestyles.  Only worked on for ~8 hours during a hackathon.  Still unfinished :-(
